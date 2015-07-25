@@ -302,6 +302,9 @@ QString SystemHealthGadgetWidget::getAlarmDescriptionFileName(const QString item
         case SystemAlarms::CONFIGERROR_PATHPLANNER:
             alarmDescriptionFileName = QString(":/systemhealth/html/SystemConfiguration-Error-PathPlanner.html");
         break;
+        case SystemAlarms::CONFIGERROR_FLIGHTMODE:
+            alarmDescriptionFileName = QString(":/systemhealth/html/SystemConfiguration-Error-FlightMode.html");
+        break;
         case SystemAlarms::CONFIGERROR_UNDEFINED:
             alarmDescriptionFileName = QString(":/systemhealth/html/SystemConfiguration-Undefined.html");
         break;

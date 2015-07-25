@@ -37,6 +37,7 @@
 				<option>PathPlanner</option>
 				<option>NavFilter</option> <!-- the selected filter is not safe for navigation -->
 				<option>UnsafeToArm</option>
+				<option>FlightMode</option>
 				<option>Undefined</option>
 				<option>None</option>
 			</options>
